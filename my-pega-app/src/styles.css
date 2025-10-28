@@ -1,0 +1,68 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2933;
+  background-color: #f7f9fb;
+}
+
+body {
+  margin: 0;
+}
+
+.app-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app-header {
+  background: linear-gradient(135deg, #0f62fe, #2d9cdb);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(15, 98, 254, 0.25);
+  margin-bottom: 2rem;
+}
+
+main section {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(31, 41, 51, 0.1);
+}
+
+.case-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.case-list li {
+  border: 1px solid #d9e2ec;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #fdfdfd;
+}
+
+.case-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(15, 98, 254, 0.2);
+}
+
+.case-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.case-meta {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+  color: #52606d;
+}
+
+.error {
+  color: #d64545;
+}
